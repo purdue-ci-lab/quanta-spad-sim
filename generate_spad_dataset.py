@@ -813,7 +813,8 @@ def process_video(video_idx: int,
         shape=grayscale_np.shape,
         dtype=grayscale_np.dtype,
         chunks=chunks,
-        compressors=compressor
+        compressors=compressor,
+        overwrite=True
     )
     z[:] = grayscale_np
     print(f"  Saved flux to {flux_path_zarr}")
