@@ -2,6 +2,8 @@
 
 Temporal upsampling of intensity videos and simulating single-photon quanta data from them.
 
+Original code from Andrew Xie.
+
 ## Setup
 
 ### Environment
